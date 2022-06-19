@@ -6,35 +6,75 @@
         <link rel="stylesheet" type="text/css" href="../style.css">
     </head>
 
+    <body>
     <header>
-        |<a href="../index.html" title="Home" style="text-decoration:none;">Back to Home</a>|
-        <hr>
-        <table class="tb-rgt">
-            <tr>
-        <th>|<a href="page-one.html" style="text-decoration:none;">Page One</a>| </th>
-        <th>|<a href="page-two.html" style="text-decoration:none;">Page Two</a>| </th>
-        <th>|<a href="page-three.html" style="text-decoration:none;">Page Three</a>| </th>
-            </tr>
-        </table>
-        <hr>
-
+        <div class="top">
+            <div id="logot"> <img src="../logo/Z3r0NC-sml.png"
+                alt="Log01 Z3r0NC" width="75%" height="75%"></div>
+                <hr><br>
+                <!-- <h1>Main Page Name</h1> -->
+                 <ul>
+                     <li><a href="../index.html">Home</a></li>
+                     <li><a href="./exercise.html">Exercise</a></li>
+                     <li><a href="./page-one.html" target="_blank">Page One</a></li>
+                     <li><a href="./page-two.html" target="_blank">Page Two</a></li>
+                     <li><a href="./page-three.html" target="_blank">Page Three</a></li>                
+                 </ul>
+                <br><hr> 
+            </div>           
+        </div>
     </header>
 
-    <body>
+    <main>
+        <br>
+        <div id="div-gallery">
+            <a target="_blank" href="../images/kermit-monkey.jpg">          
+            <img src="../images/kermit-monkey.jpg"
+            alt="kermit-monkey.jpg" width="840px" height="560px"></a>              
+        </div>
+        <br>
+    </main>
 
-    </body>
+    <!-- fixed url & ./folders, add some stuff to empity link-one-html -->
+
+    <article>
+       <form>
+        <br><em>I don't know what i can add here, any ideas?</em><br>
+        <br><u>fresh air or salty breeze?</u><br><br> <!-- have to edit on css -->
+        <input type="radio" id="mountain" name="fav_holiday" value="Mountain">
+        <label for="mountain">Mountain</label><br>
+        <input type="radio" id="sea" name="fav_holiday" placeholder="Sea or Beach">
+        <label for="sea">Sea or Beach</label><br>
+        <br><i>the <strong>Best month</strong> for a summer vacation?</i><br><br>
+        <input type="checkbox" id="june" name="june" value="June">
+        <label for="june">June </label>
+        <input type="checkbox" id="july" name="july" value="July">
+        <label for="july">July </label>
+        <input type="checkbox" id="august" name="august" value="August">
+        <label for="august">August </label><br><br>
+        <input type="submit" onclick="alert('not work! LOL')" value="Submit">
+        <br><br><del>testing some stuff random like inputs</del><br>
+      </form>
+    </article>
 
     <footer>
-        <br>
-        <hr>
-        <table class="tb-ftr"> <!-- text corner right column -->
-            <tr> 
-        <th>|<a href="./link-one.html" style="text-decoration:none;">Link One</a>| </th>
-        <th>|<a href="./link-two.html" style="text-decoration:none;">Link Two</a>| </th>
-        <th>|<a href="./link-three.html" style="text-decoration:none;">Link Three</a>| </th>
-            </tr>
-        </table>
-        <hr>
-    </footer>
+        <br><hr>
+        <ul>
+            <li><a href="./page-three.html">Top Page Three</a></li>
+            <li><a href="../index.html" target="_blank">Home</a></li>
+            <li><a href="./link-one.html" target="_blank">Link One</a></li>
+            <li><a href="./link-two.html" target="_blank">Link Two</a></li>
+            <li><a href="./link-three.html" target="_blank">Link Three</a></li>
+        </ul>
+        <hr><br>
+        <p>i need some extra space or logo lock click on link below. <br>
+            this is a bit annoying need find how to fix or make it background element.
+        </p>
+        <div id="logob"> <img src="../logo/Zero-N-C-sml.png"
+            alt="Log02 Z3r0NC" width="" height=""></div>
 
+            <span> </span>
+    </footer>
+    </body>
+    
 </html>
