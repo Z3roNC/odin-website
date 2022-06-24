@@ -1,0 +1,40 @@
+    /* ################################# Z3roNam3Cod3 ################################# */
+
+    .wrapper {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    a { /* any link stuff */
+        font-size: 18px;
+        color: #e5e7eb;
+        text-decoration: none;
+        padding-right: 10px;
+    }
+    
+    /* -------------------------------- Start of Top Zone -------------------------------- */
+    
+    .top {
+        width: 100%; /* full resolution */
+        background-color: #1f2937; /* testing menubar */
+        color: #f9faf8;
+        padding: 0 0 40px 0;
+        margin: 0 0 3px 0;
+    }
+    
+    .logo { /* just a text for now */
+        font-size: 24px;
+        margin-left: 5px;
+        padding: 5px 10px;
+        margin-top: -5px;
+    }
+    
+    .flex_nav>ul { /* Nav-bar with pseudo-link */
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-top: -45px;
+        padding-right: 5px;
+    }
+    /* -------------------------------- End of Top Zone -------------------------------- */
