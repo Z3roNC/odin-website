@@ -1,133 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>My Awesome Website</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <title>odin-website</title>
+        <meta name="description" content="odin-project website exercise">
+        <link href="style.css" type="text/css" rel="stylesheet">
     </head>
 
-    <!-- ammaccabanane -->
+    <body>
+         <div class="wrapper">
+<!-- -------------------------------- Start of Top Zone -------------------------------- -->
+            <div class="top">
+                <header>
+                    <h4 class="logo"> <a href="#">Harder Logo</a></h4>
+                </header>
 
-<body>
-    <header>
-        
-        <div class="top">
-            <div id="logot"> <img src="./logo/Z3r0NC-sml.png"
-                alt="Log01 Z3r0NC" width="75%" height="75%"></div>
-<!--             <br>
-            <h1>Main Page Name</h1> -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./pages/page-one.html" target="_blank">Page One</a></li>
-                <li><a href="./pages/page-two.html" target="_blank">Page Two</a></li>
-                <li><a href="./pages/page-three.html" target="_blank">Page Three</a></li>
-            </ul>
-            <div class="div-der">
-                <div class="top-left">
-                    <div>
-                    <h2>Here your wish</h2>
-                       Now we reach the main page <br> 
-                       front box, or maybe not?</div>
-                    <input type="button" value="Sing Up">
-                    <!-- need to move this button to right or end -->              
+                <nav class="flex_nav">
+                    <ul>
+                        <li><a href="./page/page-one.html">header link one</a></li>
+                        <li><a href="./page/page-two.html">header link two</a></li>
+                        <li><a href="./page/page-tree.html">header link three</a></li>                       
+                    </ul>
+                </nav>
+
+                <section class="hero">
+                    <div class="h_left">
+                        <h2>This website is awesome</h2>
+                        <p>This website has some subtext that goes here under the
+                            main title. It's a smaller font and the color is lower
+                            contrast.
+                        </p>
+                        <input class="but_top" type="button" value="Sing up">
+                        <!-- <button class="but_top">Sign up</button> -->
+                    </div>
+                    <div class="h_right"> <!-- need think about how set placeholder -->
+                       <!--  <input placeholder="image" type="image" value="placeholder img"> -->
+                        <img src="#" width="400px" height="200px" alt="" > <br> this is a placeholder for an image </img>
+                    </div>
+                </section>  
+            </div>
+<!-- -------------------------------- Start of Middle Zone -------------------------------- -->
+            <main class="middle">
+                <h3> Some random information. </h3>
+                <div class ="gallery">
+                    <div class="zone_pic">
+                        <img src="#" width="80px" height="100px" alt="p1" >
+                        <div class="text"> this is some subtext under an illustration or image </div> 
+                    </div>
+                    <div class="zone_pic">
+                        <img src="#" width="80px" height="100px" alt="p2" >
+                        <div class="text"> this is some subtext under an illustration or image </div> 
+                    </div>
+                    <div class="zone_pic">    
+                        <img src="#" width="80px" height="100px" alt="p3" >
+                        <div class="text"> this is some subtext under an illustration or image </div> 
+                    </div>
+                    <div class="zone_pic">    
+                        <img src="#" width="80px" height="100px" alt="p4" >
+                        <div class="text"> this is some subtext under an illustration or image </div> 
+                    </div>
                 </div>
-                <div class="top-right">
-                    <a target="_blank" href="./images/chest-main.jpg" alt="chest-main.jpg">
-                    <img src="./images/chest-main.jpg"
-                    alt="Teddy Stole Treasure Chest"
-                    width="220px" height="120px"></a>
-                </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-     <!-- comment zone? -->
-    
-    <main>
-        <h2>Some random information</h2>
-        <br>
-        <div class="div-ain">
-            <div class="div-gallery">
-                <a target="_blank" href="./images/landscape-forest.jpg" alt="landscape-forest">
-                <img src="./images/landscape-forest.jpg"
-                width="200px" height="180px"> </a>
-                <a href="./extra/land-one.html" target="_blank"> <!-- remove underline -->
-                    <div class="desc">Walking to North...</div></a>
-            </div>
-
-            <div class="div-gallery">
-                <a target="_blank" href="./images/road-avenue.jpg" alt="road-avenue">
-                <img src="./images/road-avenue.jpg"
-                width="200px" height="180px"> </a>
-                <a href="./extra/road-one.html" target="_blank"> <!-- remove underline -->
-                <div class="desc">Running to catch Sun!</div></a>
-            </div>
-
-            <div class="div-gallery">
-                <a target="_blank" href="./images/tree-lone-sun.jpg" alt="tree-lone-sun">
-                <img src="./images/tree-lone-sun.jpg"
-                width="200px" height="180px"> </a>
-                <a href="./extra/tree-one.html" target="_blank"> <!-- remove underline -->
-                <div class="desc">Looking for some nice Tree!</div></a>
-            </div>
-
-            <div class="div-gallery">
-                <a target="_blank" href="./images/fog-road-forest.jpg" alt="fog-road-forest">
-                <img src="./images/fog-road-forest.jpg"
-                width="200px" height="180px"> </a>
-                <a href="./extra/fog-one.html" target="_blank"> <!-- remove underline -->
-                <div class="desc">Just Fog around, go in?</div></a>
-            </div>
-            <div class="div-gallery">
-                <a target="_blank" href="./images/food-loaf.jpg" alt="food-loaf">
-                <img src="./images/food-loaf.jpg"
-                width="200px" height="180px"> </a>
-                <a href="./extra/food-one.html" target="_blank"> <!-- remove underline -->
-                <div class="desc">Food here, need a Break?</div></a>
-            </div>
-        </div>
-    </main>
-
-     <!-- say something or said somewtf? -->
-
-    <article>
-        <br>
-        <div class="div-ody">
-            <q>this is a badass quote from someone <br>
-                who does not know what to do in his badass existence <br>
-                so he loses his days here writing bullshit yeee!
-            </q>
             
-        </div>
-        
-    </article>
+                <article>
+                    <div class="quote">
+                        <p> This is an inspiring quote, or testimonial from a customer. 
+                            Maybe it's just filling up space, or maybe people will actually read it.
+                            Who know? All I know ist that it looks nice.
+                            <br><br>
+                            <div class="qt_right"><strong> -Thor, God of Thunder </strong></div>
+                        </p>                       
+                    </div>
+                </article>
+            </main>
+<!-- -------------------------------- Start of Bottom Zone -------------------------------- -->
+            <footer>
+                <div class="bottom">
+                    <div class="b_left">
+                        <h4> Call to action! It's time! </h4>
+                        <p> Sing up for out product by clicking that button right over there! </p>
 
-     <!-- space comment 4 -->
-
-    <footer>
-        <br>
-        <div class="div-ter">
-            <p><em>at the end what u waiting for <br>
-                log here or drop you info</em></p>
-                
-                <input type="button" value="Sign up">
-                <hr>
+                    </div>
+                    <div class="b_right">
+                        <input class="but_bot" type="button" value="Sing up">
+                        <!-- <button class="but_bot">Sing up</button> -->
+                    </div>
+                </div>
+                <div class="end">
+                    <p> Copyright ❤️ The Odin project 2021 ❤️ </p>
+                </div>
                 <div>
-                <input type="datetime" value="date: dd/mm/yyyy time:15:25">
-                <input type="email" value="email">
-                <input type="checkbox" required="if you LIKE pages">
-                <input type="button" value="fake send stuff"></div>
-            
-                <div id="logob"> <img src="./logo/Zero-N-C-sml.png"
-                    alt="Log02 Z3r0NC" width="" height=""></div>
+                    <button class="b_end">
+                        <a href="index.html">Top Page</a>
+                    </button>
+                </div>
+            </footer>
+    <!-- ################################# Z3roNam3Cod3 ################################# -->
         </div>
-        
-        <a href="credits/2_6 million+ Stunning Free Images to Use Anywhere - Pixabay.desktop">
-            Credits for images </a> <em>and a bit of inspiration about extra random run</em>
-
-    </footer>
-</body>
-     <!-- eehh space comment 5! -->
-
+    </body>
 </html>
